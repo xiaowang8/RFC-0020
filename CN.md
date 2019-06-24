@@ -170,8 +170,8 @@ In practice, this *w<sub>close</sub>* - block extra delay is compensated by our 
 
 | 名称            | 描述                                 |
 | :-------------- | :----------------------------------- |
-| header          | 区块元数据                       |
-| commitment zone | 提交进这个区块的交易 |
+| header          | 区块头，包含区块元数据                       |
+| commitment zone | 提交区              |
 | proposal zone   | `txpid` 提案区      |
 | uncle headers   | 叔块头              |
 | uncles’ proposal zones   | `txpid` 叔块提案区              |
